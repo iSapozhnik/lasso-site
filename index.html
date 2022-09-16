@@ -57,12 +57,13 @@
                                 Lasso is a window manager for your mac. It allows you to position windows exactly the way you want them, without the need for remembering a multitude of keyboard shortcuts or complicated interface quirks. Coming soon! Would you like to be notified when it's live?
                             </p>
                             <!-- <a class="btn btn-dark btn-lg" href="https://apps.apple.com/de/app/pasty-smart-clipboard/id1544620654?l=en&mt=12" role="button" target="_blank">Download</a> -->
-                            <div class="input-group mb-3 mt-4">
-                                <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username"
-                                    aria-describedby="button-addon2">
-                                <button class="btn btn-secondary border-rad" type="button" id="button-addon2">Let me know</button>
-                            </div>
-
+                            <form name="contact" method="POST" data-netlify="true"></form>
+                                <div class="input-group mb-3 mt-4">
+                                    <input type="email" name="email" class="form-control" placeholder="Enter email" aria-label="Recipient's username"
+                                        aria-describedby="button-addon2">
+                                    <button class="btn btn-secondary border-rad" type="submit" type="button" id="button-addon2">Let me know</button>
+                                </div>
+                            </form>
                         </div>
                         <div class="col-md-5">
                             <img src="img/app-icon.png" alt="">
