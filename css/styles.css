@@ -10,17 +10,12 @@ body {
 }
 
 .gradient {
-    background: rgb(0,97,242);
+    background: #DDF2F4;
     background: linear-gradient(125deg, #DDF2F4, #94848D);
 }
 
 .page-header {
-    /* margin-top: 4rem; */
     color: #4A3F36;
-}
-
-.feature {
-    color: #fff;
 }
 
 .feature ul {
@@ -35,10 +30,6 @@ body {
     line-height: 1.5rem;
     margin-bottom: 1rem;
 }
-
-/* .btn-outline-light {
-    background-color: #4A3F36;
-} */
 
 footer {
     color: #fff;
