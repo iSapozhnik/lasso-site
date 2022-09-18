@@ -11,7 +11,7 @@ body {
 
 .gradient {
     background: #DDF2F4;
-    background: linear-gradient(125deg, #DDF2F4, #94848D);
+    background: linear-gradient(135deg, #DDF2F4, #94848D);
 }
 
 .page-header {
