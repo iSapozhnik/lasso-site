@@ -91,7 +91,18 @@ a:hover {
 }
 
 .border-rad:hover{
-   
     background-color: #f9a826;
     border-color: #f9a826;
+}
+
+.button-box {
+    margin-top:2rem;
+ }
+
+ .button-icon  {
+    margin-right: 1rem;
+ }
+
+ .button-space {
+    margin-right: 1rem;
 }

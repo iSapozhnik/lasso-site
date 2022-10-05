@@ -33,12 +33,19 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <link rel="manifest" href="/img/site.webmanifest">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" crossorigin="anonymous">
+
 </head>
 
 <body class="gradient">
+    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+    <script type="text/javascript">
+        Paddle.Environment.set('sandbox');
+        Paddle.Setup({ vendor: 149915 });
+    </script>
     <div class="container-fluid">
         <header class="page-header">
-            <!-- d-flex justify-content-md-center align-items-center vh-100 -->
             <div class="d-flex justify-content-md-center align-items-center vh-100">
                 <div class="container pt-3">
                     <div class="row align-items-center justify-content-center">
@@ -48,13 +55,16 @@
                             <p>
                                 Lasso is a window manager for your mac. It allows you to position windows exactly the way you want them, without the need for remembering a multitude of keyboard shortcuts or complicated interface quirks. Coming soon! Would you like to be notified when it's live?
                             </p>
-                            <form name="contact" method="POST" data-netlify="true">
-                                <div class="input-group mb-3 mt-4">
-                                    <input type="email" name="email" class="form-control" placeholder="Enter email" aria-label="Recipient's username"
-                                        aria-describedby="button-addon2">
-                                    <button class="btn btn-secondary border-rad" type="submit" type="button" id="button-addon2">Let me know</button>
-                                </div>
-                            </form>
+                            <div class="button-box col">
+                                <a href="#" class="btn btn-primary btn-lg button-space" data-product="30600" id="buy"><i class="button-icon fa-solid fa-cart-shopping"></i></i>Buy Now!</a>
+                                <script type="text/javascript">
+                                    function openCheckout() {
+                                        Paddle.Checkout.open({ product: 30600 });
+                                    }
+                                    document.getElementById('buy').addEventListener('click', openCheckout, false);
+                                </script>
+                                <a href="https://f003.backblazeb2.com/file/lasso-app/Lasso.dmg" class="btn btn-dark btn-lg"><i class="button-icon fab fa-apple"></i>Download trial</a>
+                            </div>
                         </div>
                         <div class="col-md-5">
                             <img class="img-fluid" src="img/app-icon.png" alt="application icon">
