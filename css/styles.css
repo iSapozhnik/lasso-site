@@ -46,6 +46,11 @@ body {
     margin-bottom: 1rem;
   }
 
+  .bolded {
+    font-weight: bold;
+    /* color: rgb(181, 37, 37); */
+  }
+
 .icon {
     color: #fff;
     height: 7rem;
